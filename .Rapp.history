@@ -1,0 +1,88 @@
+available.packages()
+exit
+quit
+library("slidify")
+install.packages("devtools)
+q
+quit
+install.packages("devtools")
+install.packages("KernSmooth")
+library("KernSmooth")
+q
+quit
+getwd()
+gwtwd()
+getwd()
+a <- availablepackages()
+a <- available.packages()
+head(rownames(a),3)
+head()
+x <- c(true,2)
+x <- c(TRUE,2)
+x
+y <- c(2.7,"a")
+y
+x <- c(TRUE, FALSE)
+c
+x
+x <- 9:29
+x
+x <- 9:2
+x
+x <- vector("character", length =2)
+x
+class(x)
+class(X)
+x <- 3:6
+class(x)
+as.numeric(x)
+as.character(x)
+as.logical(x)
+as.string(x)
+as.list(x)
+x <- list("a","get lost" 2.3, 8)
+x <- list("a","get lost" ,2.3, 8)
+x
+m <- matrix()
+m
+m <- matrix(nrow=2,ncol=3)
+m
+dim(m)
+attributes(m)
+m <- matrix(1:6, nrow=2, ncol = 3)
+m
+m <- 1:10
+dim(m) = c(2:5)
+dim(m) = c(2,5)
+m
+dim(m) = c(5,2)
+m
+x <- 1:3
+y <- 10:12
+cbind(x,y)
+y <- 10:13
+cbind(x,y)
+y <- 10:12
+cbind(x,y)
+rbind(x,y)
+x <- factor(yes,no,yes,no,no)
+x <- factor("yes","no","yes","no","no")
+x <- factor(c("yes","no","yes","no","no"))
+x
+table(x)
+levels(x) = c("yes","no")
+x
+x <- data.frame()
+x <- 4
+class(x)
+x <- c(4,TRUE)
+class(x)
+x <- c(1,3,5)
+y <- c(3,2,10)
+ls
+mymat <- rbind(x,y)
+mymat
+x <- list(2,"a","b",TRUE)
+x[[2]]
+mym <- x[[2]]
+class(mym)
