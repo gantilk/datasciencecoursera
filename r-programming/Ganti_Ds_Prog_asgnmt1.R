@@ -56,6 +56,7 @@ corr <- function (directory, threshold = 0)
     
     # loop throug the files in the directory
     correlationvector <- vector()
+    op <- vector()
     for(i in 1:length(files.list))
     {
         # find out whether we should consider the csv file with the current id
@@ -67,8 +68,8 @@ corr <- function (directory, threshold = 0)
             completecases <- df[good,]
             sulfatevector <- completecases[,"sulfate"]
             nitratevector <- completecases[,"nitrate"]
-            append(cor(sulfatevector,nitratevector),correlationvector)
-            }
+            correlationvector <- append(correlationvector,cor(sulfatevector,nitratevector))
+        }
     }
     correlationvector
 }
